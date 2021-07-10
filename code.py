@@ -3,6 +3,10 @@ from nltk.chat.util import Chat, reflections
 # Pairs is a list of patterns and responses.
 pairs = [
     [
+        r"what (.*)",
+        ["I think you should google that. Talk simple to me", ]
+    ],
+    [
         r"(.*)my name is (.*)",
         ["Hello %2, How are you today ?", ]
     ],
